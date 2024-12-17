@@ -1,0 +1,165 @@
+/* Estilos personalizados para Washing */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    width: 90px;
+    height: 90px;
+    margin-right: 15px;
+    transition: transform 0.3s ease; /* Nueva animación */
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.1); /* Nueva animación */
+}
+
+.brand-name {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #FF3132 !important;
+    padding: 10px 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+    position: relative; /* Para animación */
+}
+
+/* Nueva animación para enlaces del nav */
+.navbar-light .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f0f0f0;
+    opacity: 0.8;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(255,255,255,0.5);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Sobreescribir color primario de Bootstrap */
+.text-primary {
+    color: #FF3132 !important;
+}
+
+/* Servicios */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card i {
+    font-size: 3rem;
+    color: #FF3132;
+    margin-bottom: 15px;
+    transition: transform 0.5s ease; /* Nueva animación */
+}
+
+.card:hover i {
+    transform: rotateY(360deg); /* Nueva animación */
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #FF3132;
+    border-color: #FF3132;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #FF3132;
+    border-color: #FF3132;
+    opacity: 0.8;
+    transform: translateY(-2px); /* Nueva animación */
+}
+
+/* Textos */
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff !important;
+    color: #333;
+}
+
+footer .social-icons a {
+    font-size: 1.5rem;
+    color: #333;
+    transition: all 0.3s ease;
+    display: inline-block; /* Para animación */
+}
+
+footer .social-icons a:hover {
+    color: #FF3132 !important;
+    transform: translateY(-5px); /* Nueva animación */
+}
+
+/* Nuevas animaciones para imágenes */
+.img-fluid {
+    transition: transform 0.5s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.02);
+}
+
+/* Nuevas animaciones para formulario */
+.form-control {
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .brand-name {
+        font-size: 1.5rem;
+    }
+}

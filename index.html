@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Washing - Limpieza de Tapizados</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logowashing.png" alt="Washing Logo" width="50" height="50" class="d-inline-block align-text-top me-2">
+                <span class="brand-name">Washing</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienes-somos">Quiénes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Inicio -->
+    <section id="inicio" class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1>Limpieza Profesional de Tapizados</h1>
+                <p class="lead">Restauramos la limpieza y frescura de tus tapizados de autos y muebles.</p>
+                <a href="#contacto" class="btn btn-primary">Solicitar Servicio</a>
+            </div>
+            <div class="col-md-6">
+                <img src="tapizado-limpio.jpg" alt="Tapizado Limpio" class="img-fluid rounded">
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="container mt-5">
+        <h2 class="text-center mb-4">Nuestros Servicios</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-car text-primary mb-3"></i>
+                        <h5 class="card-title">Tapizados de Auto</h5>
+                        <p class="card-text">Limpieza profunda de asientos y tapizados de vehículos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-couch text-primary mb-3"></i>
+                        <h5 class="card-title">Sillones y Muebles</h5>
+                        <p class="card-text">Restauración de tapizados de sillones, sofás y muebles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-spray-can text-primary mb-3"></i>
+                        <h5 class="card-title">Tratamientos Especiales</h5>
+                        <p class="card-text">Eliminación de manchas y olores difíciles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiénes Somos -->
+    <section id="quienes-somos" class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="equipo.jpg" alt="Nuestro Equipo" class="img-fluid rounded mb-3">
+            </div>
+            <div class="col-md-6">
+                <h2>Quiénes Somos</h2>
+                <p>Somos un equipo de profesionales especializados en la limpieza y restauración de tapizados. Con años de experiencia, nos comprometemos a devolver la frescura y limpieza a tus espacios.</p>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-check text-primary me-2"></i>Experiencia profesional</li>
+                    <li><i class="fas fa-check text-primary me-2"></i>Productos de alta calidad</li>
+                    <li><i class="fas fa-check text-primary me-2"></i>Servicio personalizado</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="container mt-5">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Correo Electrónico" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="4" placeholder="Tu Mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Washing. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/washing.olavarria.3?locale=es_LA" class="text-dark me-3" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/washingolavarria?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-dark me-3" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5492284602613" class="text-dark" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
